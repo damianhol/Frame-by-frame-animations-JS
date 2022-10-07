@@ -1,0 +1,31 @@
+body {
+    background: blue;
+}
+
+#game {
+    background: gray;
+}
+
+#canvas1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+}
+
+#playerImage, #backgroundImage, #enemyImage {
+    display: none;
+}
+
+.controls {
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    left: 50%;
+    transform: translateX(50%);
+}
+
+.controls, select, option {
+    font-size: 25px;
+}
